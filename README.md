@@ -134,7 +134,7 @@ Dashboard tab: View charts and extracted metrics
 Document Content tab: See the raw extracted text
 
 💡 Example Questions You Can Ask
-📈 Revenue and Sales
+### 📈 Revenue and Sales
 
 "What was the total revenue for last quarter?"
 
@@ -142,7 +142,7 @@ Document Content tab: See the raw extracted text
 
 "What are the sales figures by month?"
 
-💸 Expenses and Costs
+### 💸 Expenses and Costs
 
 "What are the main expense categories?"
 
