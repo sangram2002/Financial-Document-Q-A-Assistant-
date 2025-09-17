@@ -106,3 +106,64 @@ ollama list
 # Test with a simple question
 ollama run llama2 "Hello, how are you?"
 ```
+📝 Usage
+📂 Step 1: Upload Document
+
+Click "Choose a financial document" in the sidebar
+
+Select a PDF or Excel file containing financial data
+
+Click "Process Document" button
+
+Wait for processing to complete ✅
+
+💬 Step 2: Ask Questions
+
+Go to the Q&A Chat tab
+
+Type your question in the text box
+
+Click "Ask" button or use quick question buttons
+
+View the AI-generated response
+
+📊 Step 3: Explore Data
+
+Dashboard tab: View charts and extracted metrics
+
+Document Content tab: See the raw extracted text
+
+💡 Example Questions You Can Ask
+📈 Revenue and Sales
+
+"What was the total revenue for last quarter?"
+
+"Show me all revenue sources mentioned"
+
+"What are the sales figures by month?"
+
+💸 Expenses and Costs
+
+"What are the main expense categories?"
+
+"Calculate the total operating expenses"
+
+"What was spent on marketing?"
+
+📊 Financial Analysis
+
+"What is the profit margin?"
+
+"Calculate the net income"
+
+"What's the debt-to-equity ratio?"
+
+"Show me the financial trends"
+
+📝 General Questions
+
+"Summarize the key financial highlights"
+
+"What are the biggest financial risks mentioned?"
+
+"Compare this quarter to last quarter"
