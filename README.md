@@ -53,7 +53,7 @@ cd financial-qa-assistant
 
 # Or download and extract the ZIP file
 ```
-Step 3: Install Python Dependencies
+### Step 3: Install Python Dependencies
 ```bash
 # Install all required packages
 pip install -r requirements.txt
@@ -67,13 +67,13 @@ conda activate financial-qa
 # Install packages
 pip install -r requirements.txt
 ```
-Step 4: Download NLTK Data
+### Step 4: Download NLTK Data
 ```bash
 # Download required language processing data
 python -c "import nltk; nltk.download('punkt'); nltk.download('stopwords')"
 
 ```
-Step 5: Install and Setup Ollama
+### Step 5: Install and Setup Ollama
 ```bash
 For Windows:
 
@@ -98,7 +98,7 @@ ollama pull llama2
 ollama serve
 ```
 
-Step 6: Verify Ollama Installation
+### Step 6: Verify Ollama Installation
 ```bash
 # Check if Ollama is working
 ollama list
@@ -106,7 +106,7 @@ ollama list
 # Test with a simple question
 ollama run llama2 "Hello, how are you?"
 ```
-📝 Usage
+### 📝 Usage
 📂 Step 1: Upload Document
 
 Click "Choose a financial document" in the sidebar
@@ -117,7 +117,7 @@ Click "Process Document" button
 
 Wait for processing to complete ✅
 
-💬 Step 2: Ask Questions
+### 💬 Step 2: Ask Questions
 
 Go to the Q&A Chat tab
 
@@ -127,7 +127,7 @@ Click "Ask" button or use quick question buttons
 
 View the AI-generated response
 
-📊 Step 3: Explore Data
+### 📊 Step 3: Explore Data
 
 Dashboard tab: View charts and extracted metrics
 
@@ -150,7 +150,7 @@ Document Content tab: See the raw extracted text
 
 "What was spent on marketing?"
 
-📊 Financial Analysis
+### 📊 Financial Analysis
 
 "What is the profit margin?"
 
@@ -160,7 +160,7 @@ Document Content tab: See the raw extracted text
 
 "Show me the financial trends"
 
-📝 General Questions
+### 📝 General Questions
 
 "Summarize the key financial highlights"
 
