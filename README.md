@@ -44,15 +44,20 @@ Required Python Version: 3.8 - 3.11 (Recommended: 3.10)
 ```bash
 # Check your Python version
 python --version
-Step 2: Clone or Download
+```
+### Step 2: Clone or Download
+```bash
 # If using Git
 git clone https://github.com/your-username/financial-qa-assistant.git
 cd financial-qa-assistant
 
 # Or download and extract the ZIP file
+```
 Step 3: Install Python Dependencies
+```bash
 # Install all required packages
 pip install -r requirements.txt
+
 
 # Alternative using conda:
 # Create conda environment (recommended)
@@ -61,11 +66,15 @@ conda activate financial-qa
 
 # Install packages
 pip install -r requirements.txt
+```
 Step 4: Download NLTK Data
+```bash
 # Download required language processing data
 python -c "import nltk; nltk.download('punkt'); nltk.download('stopwords')"
-Step 5: Install and Setup Ollama
 
+```
+Step 5: Install and Setup Ollama
+```bash
 For Windows:
 
 Download Ollama from https://ollama.ai/download
@@ -87,10 +96,13 @@ ollama pull llama2
 
 # Start Ollama service (keep this running)
 ollama serve
+```
 
 Step 6: Verify Ollama Installation
+```bash
 # Check if Ollama is working
 ollama list
 
 # Test with a simple question
 ollama run llama2 "Hello, how are you?"
+```
